@@ -1,0 +1,37 @@
+@mixin setFlex($direction: true)
+    display: flex
+    @if ($direction:false)
+        flex-direction: column
+    @else 
+        flex-direction: $direction
+    justify-content: center
+    align-items: center
+    
+    
+.container
+    height: 100vh
+    background-color: #131313
+    @include setFlex(row)
+
+    div
+        height: 25rem
+        width: 25rem
+        @include setFlex
+        border-radius: 1rem         
+        background: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)
+        background-size: 200% auto
+        gap: 1rem         
+
+.field
+    width: 80%
+
+h1
+    text-align: center
+
+button
+    width: 80%
+
+form
+    width: 100%
+    @include setFlex
+

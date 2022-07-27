@@ -1,0 +1,15 @@
+[
+    {
+        "id": "cf4bbab4-dacc-493b-91f8-72e1354b42aa",
+        "username": "Lucas",
+        "password": "lucas123",
+        "notes": [
+            {
+                "noteId": "c5fcde8a-626f-4cc4-ba17-e1642bc5aa32",
+                "title": "Primeira nota",
+                "text": "Essa é a minha primeira nota",
+                "data": "27/07/2022"
+            }
+        ]
+    }
+]
